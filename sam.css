@@ -1,0 +1,229 @@
+@media screen{
+  body {margin:30px;max-width:700px;}
+}
+
+@page {
+  margin:3cm;
+}
+
+p {
+  text-align:justify;
+}
+
+dt {
+  font-weight:bold;
+}
+
+dd {
+  text-align:justify;
+}
+
+h1 {
+  font-family:sans-serif;
+  page-break-before:right;
+}
+
+h2 {
+  font-family:sans-serif;
+}
+
+h3 {
+  font-family:sans-serif;
+}
+
+.appendix {
+  page-break-before:right;
+}
+
+.stb {
+  border-spacing:0px;
+  margin:10px;
+}
+
+.btb {
+  border:solid 1pt black;
+  border-spacing:0px;
+  margin:10px;
+}
+.ruledtr td {
+  border-bottom:solid 1pt black;
+}
+
+td {
+  padding:5px;
+}
+
+.rbtd {
+  border-right:solid 1pt black;
+}
+
+.lbtd {
+  border-left:solid 1pt black;
+}
+
+.quiz {
+  background-color:#E8E8E8;padding:25px;
+}
+
+.quiztitle {
+  font-family:sans-serif;
+  font-weight:bold;
+}
+
+.glossary dd {
+  margin-bottom:20px;
+}
+
+@media screen{
+  .cover {
+    margin:60px 40px 200px 40px;
+    font-family:sans-serif;
+    text-align:right;
+  }
+}
+
+@media print{
+  .cover {
+    margin:250px 40px 0px 40px;
+    font-family:sans-serif;
+    text-align:right;
+    page-break-after:always;
+  }
+}
+
+.title {
+  font-size:300%;
+  font-weight:bold;
+  border-bottom:solid 1pt;
+  float:right;
+  margin:10px 0px 20px 0px;
+}
+
+.subtitle {
+  font-size:120%;
+  clear:both;
+}
+
+.author {
+  margin-bottom:3px;
+}
+
+a.idxlnk{
+  text-decoration:none;
+  font-family: Calibri, Helvetica, sans-serif;
+  font-weight:600;
+}
+
+a.idxlnk:visited {
+  color:#505050;
+}
+
+a.idxlnk:link {
+  color:black;
+}
+
+.idxc2 {
+  padding-left:15px;
+}
+
+a.idxlnk2{
+  text-decoration:none;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+a.idxlnk2:visited {
+  color:#505050;
+}
+
+a.idxlnk2:link {
+  color:black;
+  font-weight:600;
+}
+
+.idxc3 {
+  padding-left:30px;
+}
+
+a.idxlnk3{
+  text-decoration:none;
+  font-family: Calibri, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:80%;
+}
+a.idxlnk3:visited {
+  color:#505050;
+}
+
+a.idxlnk3:link {
+  color:black;
+}
+
+a.idxlnkA{
+  text-decoration:none;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+a.idxlnkA:visited {
+  color:#505050;
+}
+
+a.idxlnkA:link {
+  color:black;
+}
+
+.idxn{
+  font-family: Calibri, Helvetica, sans-serif;
+}
+.idxn2{
+  font-family: Calibri, Helvetica, sans-serif;
+}
+.idxn3{
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size:80%;
+}
+.idxnA{
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+@media screen {
+  .quizprint{
+    display:none;
+  }
+}
+
+@media print {
+  .quizeval{
+     display:none;
+  }
+}
+
+.a_i  {
+  font-family:sans-serif;
+  color:gray;
+  font-size:80%;
+}
+
+.a_i  a {
+  text-decoration:none;
+}
+
+.a_i  a:link  {
+  color:gray;
+}
+
+.a_i  a:visited {
+  color:gray;
+}
+
+.cntpage {
+  min-height:700px;
+}
+
+.s_pos {
+  position:absolute;
+}
+
+.answercomment {
+  color:gray;
+  font-style:italic;
+}
